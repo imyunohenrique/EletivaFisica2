@@ -25,4 +25,7 @@ if operacao == 3:
 
 if operacao == 4:
     l0 = float(input("Digite o comprimento inicial em metros (m): "))
-    coeficienteLinear
+    coeficienteLinear = float(input("Digite o coeficiente de dilatação linear:" ))
+    t0 = float(input("Digite a temperatura inicial em Celsius (C°): "))
+    variacaoTemperatura = t0 - tf
+    dilatacaoLinear = l0 * coeficienteLinear * variacaoTemperatura
